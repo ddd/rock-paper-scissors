@@ -34,7 +34,7 @@ function playRound(playerSelection, computerSelection) {
         alert("You win! Rock beats Scissors!");
         break;
       } else if (computerSelection === "paper") {
-        alert("You lose! Paper beats rock!");
+        alert("You lose! Paper beats Rock!");
         break;
       } else {
         alert("Tied! Rock ties Rock!");
@@ -45,7 +45,7 @@ function playRound(playerSelection, computerSelection) {
         alert("You lose! Scissors beats Paper!");
         break;
       } else if (computerSelection === "rock") {
-        alert("You win! Paper beats rock!");
+        alert("You win! Paper beats Rock!");
         break;
       } else {
         alert("Tied! Paper ties Paper!");
